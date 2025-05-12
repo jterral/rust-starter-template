@@ -1,0 +1,9 @@
+{
+    // 🧹 FORMATTER
+    "editor.formatOnSave": true,
+
+    // ✨ AUTO IMPORTS, HOVER, ETC.
+    "rust-analyzer.inlayHints.chainingHints.enable": false,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "rust-analyzer.showSyntaxTree": false
+}
