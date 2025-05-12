@@ -16,19 +16,19 @@ A minimal Rust project template with GitHub Actions, pre-commit hooks, and usefu
 
 ## 🚀 Getting Started
 
+```bash
   cargo build
   cargo test
-
-To install pre-commit hooks:
-
-  pre-commit install
+  cargo run
+```
 
 ## 📁 Structure
 
 ```plaintext
 .
-├── .github/workflows/   # CI pipelines
+├── .github/workflows/
 ├── .pre-commit-config.yaml
+├── .editorconfig
 ├── src/
 │   └── main.rs
 └── Cargo.toml

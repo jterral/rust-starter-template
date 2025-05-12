@@ -3,7 +3,7 @@ version: 2
 updates:
   # Maintain dependencies for Cargo
   - package-ecosystem: "cargo"
-    directory: "/" # Location of package manifests
+    directory: "/"
     schedule:
       interval: "weekly"
 
